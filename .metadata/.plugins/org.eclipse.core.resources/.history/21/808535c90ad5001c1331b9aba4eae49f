@@ -1,0 +1,41 @@
+
+//아래 class의 소속 패키지 선언
+//모든 class의 최상단에는 무조건 패키지 선언이 들어간다. 
+package com.daum.test;
+
+//Test_01 이라는 클래스 선언.
+//자바는 class 또는 interface라는 최소 단위 프로그램들로 구성된다.
+//class 이름은 관용적으로 대문자로 시작, 의미있게 주기(가독성)
+public class Test_01 {
+
+	//자바 가상머신(JVM)이 찾아서 호출하는 main method 선언
+	//복붙2
+	public static void main(String[] args) {
+		// 학생번호를 저장하기 위해
+		// int형 데이터 (정수 데이터)를 저장할 메모리 공간을 확보하고
+		// 이 곳 이름을 student_no 라고 명한다.
+		
+		// 학생번호를 저장하기 위해
+		// int형 데이터를 저장할 변수 student_no 를 선언하기.
+		int student_no;
+		
+		// student_no 라는 변수에 1을 저장하기.
+		// 환경과 조건, 상황에 따라 값을 1, 2로 저장가능
+		// ' = ' 대입연산자
+		student_no = 1;
+		
+		
+		// 학생번호를 저장하기 위해
+		// int형 데이터를 저장할 메모리 공간을 확보하고
+		// 이 곳 이름을 student_num 라고 명한다.
+		// 이 메모리 공간에 정수형 데이터 1을 저장한다.
+		// 학생번호를 저장하기 위해
+		// int형 데이터를 저장할 변수 student_num 을 선언하기
+		// 변수 student_num에 정수값 1 저장하기.
+		int student_num = 1; // 자료형 변수명 = 데이터;
+
+		// 변수 안의 데이터를 콘솔창에 출력하기
+		System.out.println("학생번호: "student_no);
+	}
+
+}

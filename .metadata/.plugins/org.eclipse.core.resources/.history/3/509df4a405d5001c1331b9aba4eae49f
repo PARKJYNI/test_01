@@ -1,0 +1,12 @@
+package com.daum.test;
+
+public class Welcome {
+	
+//	int weight = 82;  // 속성변수
+	public static void main(String[] args) {
+
+		int weight = 82; // 지역변수
+		System.out.println(weight);
+	}
+ 
+} 
